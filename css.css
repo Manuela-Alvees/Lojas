@@ -1,0 +1,85 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url("https://png.pngtree.com/thumb_back/fw800/background/20240103/pngtree-close-up-view-of-dark-blue-and-gray-marble-texture-image_13862133.png");
+    background-size: cover;
+    text-align: center;
+}
+
+h1 {
+    background-image: url("https://img.freepik.com/fotos-gratis/plano-de-fundo-texturizado-de-papel-de-espaco-de-design_53876-139793.jpg?semt=ais_hybrid");
+    color:  rgb(26, 74, 117);
+    text-align: center;
+    font-size: 50px;
+    padding: 20px;
+}
+
+.image-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 50px; /* Espaço entre os itens */
+    padding: 30px;
+}
+
+.product {
+    text-align: center;
+    width: 200px;
+    background-color: rgba(5, 52, 94, 0.667);
+    border: 1px solid rgb(26, 74, 117);
+    border-radius: 10px;
+    padding: 1rem;
+    height: 300px;
+    
+}
+
+.product img {
+    width: 100%;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    object-fit: contain; 
+}
+
+.product:hover img {
+    transform: scale(1.1);
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.3);
+}
+
+.product h6 {
+    font-size: 1.2rem;
+    margin-top: 10px;
+    font-weight: bold;
+    color: #ccc;
+}
+
+.produto{
+    text-align: center;
+    width: 400px;
+    background-color:rgba(5, 52, 94, 0.667);
+    border: 1px solid rgb(26, 74, 117);
+    border-radius: 10px;
+    padding: 1rem;
+   height: 500px;   
+}
+.produto img {
+    width: 100%;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    object-fit: contain; 
+}
+
+.produto:hover img {
+    transform: scale(1.1);
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.3);
+}
+
+.produto h6 {
+    font-size: 1.1rem;
+    margin-top: 10px;
+    font-weight: bold;
+    color: #ccc;
+    
+}
+
